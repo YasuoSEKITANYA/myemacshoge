@@ -123,9 +123,9 @@
 ;;
 ;; RefTeX with YaTeX
 ;;
-;(add-hook 'yatex-mode-hook 'turn-on-reftex)
-(add-hook 'yatex-mode-hook
-          '(lambda ()
-             (reftex-mode 1)
-             (define-key reftex-mode-map (concat YaTeX-prefix ">") 'YaTeX-comment-region)
-             (define-key reftex-mode-map (concat YaTeX-prefix "<") 'YaTeX-uncomment-region)))
+;;(add-hook 'yatex-mode-hook 'turn-on-reftex)
+;(add-hook 'yatex-mode-hook
+;          '(lambda ()
+;             (reftex-mode 1)
+;             (define-key reftex-mode-map (concat YaTeX-prefix ">") 'YaTeX-comment-region)
+;             (define-key reftex-mode-map (concat YaTeX-prefix "<") 'YaTeX-uncomment-region)))
